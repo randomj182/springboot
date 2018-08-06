@@ -1,6 +1,6 @@
 package com.ramdom;
 /**
- * @description 添加类的描述.
+ * @description 启动类主类.
  * @author random
  * @version 1.0
  * @date 2018年7月24日

@@ -26,12 +26,17 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.40</version>
 		</dependency>
-		<!-- spring-boot-starter基础 -->
+		<!-- spring-boot-starter基础
+			核心模块，包括自动配置支持、日志和YAML
+		 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-		<!-- spring-boot-starter-test用来做单元测试验证数据访问 -->
+		<!-- spring-boot-starter-test
+			用来做单元测试验证数据访问 
+			测试模块，包括JUnit、Hamcrest、Mockito
+		-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -59,6 +64,11 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<!-- 静态资源访问 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
 		<!-- mybatis -->
