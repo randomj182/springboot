@@ -19,7 +19,7 @@ import com.random.service.UserService;
  * 
  */
 @Controller
-public class UserController {
+public class noUserController {
 	// controller层是建立在service层之上的
 	@Autowired
 	private UserService userService;
