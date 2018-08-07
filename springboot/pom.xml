@@ -71,8 +71,16 @@
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 			<!-- <version></version> -->
 		</dependency>
-		
-		
+		<!-- redis -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-redis</artifactId>
+		</dependency>
+		<!-- mongodb -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
 		<!-- mybatis -->
 		<!-- <dependency>
 		    <groupId>org.mybatis</groupId>
