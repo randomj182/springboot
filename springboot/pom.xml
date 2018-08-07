@@ -69,8 +69,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<!-- <version></version> -->
 		</dependency>
-
+		
+		
 		<!-- mybatis -->
 		<!-- <dependency>
 		    <groupId>org.mybatis</groupId>
