@@ -13,7 +13,7 @@ import com.ramdom.Application;
 import com.random.domain.Kid;
 
 /**
- * @description 添加类的描述.
+ * @description Redis访问测试类.
  * @author random
  * @version 1.0
  * @date 2018年8月7日
@@ -23,8 +23,20 @@ import com.random.domain.Kid;
 @SpringApplicationConfiguration(Application.class)
 public class RedisTest {
 	@Autowired
+	private StringRedisTemplate stringRedisTemplate;
+	@Test
+	// 测试保存字符串
+	public void saveString() throws Exception{
+		// 保存字符串
+		stringRedisTemplate.opsForValue().set("aaa", "111");
+		Assert.assertEquals("111", stringRedisTemplate.opsForValue().get("aaa"));
+	}
+	
+	
+	@Autowired
 	private RedisTemplate<String, Kid> redisTemplate;
 	@Test
+	// 测试保存对象
 	public void test() throws Exception{
 		// 保存对象
 		Kid kid = new Kid("超人", 20);

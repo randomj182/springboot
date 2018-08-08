@@ -1,6 +1,6 @@
 package com.random.domain;
 /**
- * @description 添加类的描述.
+ * @description 要存储的People实体.
  * @author random
  * @version 1.0
  * @date 2018年8月7日

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.ramdom.exception.MyException;
 
 /**
- * @description Hello控制层.
+ * @description Hello控制层 异常处理控制操作.
  * @author random
  * @version 1.0
  * @date 2018年8月6日

@@ -9,11 +9,11 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.ramdom.Application;
-import com.ramdom.config.PeopleRepository;
+import com.ramdom.config.PeopleMongoRepository;
 import com.random.domain.People;
 
 /**
- * @description 添加类的描述.
+ * @description Spring Boot中对MongoDB访问的配置和使用进行测试.
  * @author random
  * @version 1.0
  * @date 2018年8月7日
@@ -24,7 +24,7 @@ import com.random.domain.People;
 public class MongodbTest {
 
 	@Autowired
-	private PeopleRepository peopleRepository;
+	private PeopleMongoRepository peopleRepository;
 
 	@Before
 	public void setUp() {

@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.random.domain.Teacher;
 
 /**
- * @description 添加类的描述.
+ * @description Teacher对象的控制层操作.
  * @author random
  * @version 1.0
  * @date 2018年8月6日

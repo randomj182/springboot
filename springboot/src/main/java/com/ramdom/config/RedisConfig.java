@@ -11,7 +11,7 @@ import com.random.domain.Kid;
 import com.random.service.impl.RedisObjectSerializer;
 
 /**
- * @description 添加类的描述.
+ * @description 配置针对Kid的RedisTemplate实例.
  * @author random
  * @version 1.0
  * @date 2018年8月7日

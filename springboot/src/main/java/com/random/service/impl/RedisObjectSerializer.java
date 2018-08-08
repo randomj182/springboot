@@ -7,6 +7,8 @@ import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.SerializationException;
 
 /**
+ * 像这样RedisTemplate<String, User>来初始化并进行操作,但是Spring Boot并不支持直接使用.
+ * 需要我们自己实现RedisSerializer<T>接口来对传入对象进行序列化和反序列化.
  * @description 实现对象的序列化接口.
  * @author random
  * @version 1.0

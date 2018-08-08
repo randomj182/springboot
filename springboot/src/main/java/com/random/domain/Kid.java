@@ -3,7 +3,7 @@ package com.random.domain;
 import java.io.Serializable;
 
 /**
- * @description 要存储的对象kid.
+ * @description 要存储的对象kid 必须实现序列化接口.
  * @author random
  * @version 1.0
  * @date 2018年8月7日

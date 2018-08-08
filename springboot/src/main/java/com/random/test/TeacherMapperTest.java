@@ -18,7 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import com.random.controller.TeacherController;
 
 /**
- * @description 添加类的描述.
+ * @description 使用Spring MVC来实现一组对Teacher对象操作的RESTful API.
  * @author random
  * @version 1.0
  * @date 2018年7月30日
