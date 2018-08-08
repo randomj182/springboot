@@ -1,4 +1,4 @@
-package com.ramdom.exception;
+package com.random.exception;
 /**
  * @description 自定义异常类，继承exception.用来实验捕获该异常，并返回json.用于测试
  * @author random

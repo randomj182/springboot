@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.ramdom.exception.MyException;
+import com.random.exception.MyException;
 
 /**
  * @description Hello控制层 异常处理控制操作.

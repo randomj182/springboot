@@ -1,4 +1,4 @@
-package com.ramdom.exception;
+package com.random.exception;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.ramdom.dto.ErrorInfo;
+import com.random.dto.ErrorInfo;
 
 /**
  * @description 全局异常处理类

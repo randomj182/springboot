@@ -1,4 +1,4 @@
-package com.ramdom.config;
+package com.random.config;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

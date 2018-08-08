@@ -1,4 +1,4 @@
-package com.ramdom.dto;
+package com.random.dto;
 /**
  * 作为错误返回的json封装对象
  * 创建统一的JSON返回对象，code：消息类型，message：消息内容，url：请求的url，data：请求返回的数据

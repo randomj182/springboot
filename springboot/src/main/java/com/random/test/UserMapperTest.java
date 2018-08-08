@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.ramdom.Application;
+import com.random.Application;
 import com.random.domain.User;
 import com.random.mapper.UserMapper;
 

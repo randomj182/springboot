@@ -9,7 +9,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.ramdom.Application;
+import com.random.Application;
 import com.random.domain.Kid;
 
 /**

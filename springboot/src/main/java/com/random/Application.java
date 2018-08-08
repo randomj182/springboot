@@ -1,4 +1,4 @@
-package com.ramdom;
+package com.random;
 /**
  * @description 启动类主类.
  * @author random

@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.ramdom.Application;
-import com.ramdom.config.PeopleMongoRepository;
+import com.random.Application;
+import com.random.config.PeopleMongoRepository;
 import com.random.domain.People;
 
 /**
@@ -34,18 +34,18 @@ public class MongodbTest {
 	@Test
 	public void test() throws Exception {
 
-		// 创建三个User，并验证User总数
+		// 创建三个People，并验证People总数
 		peopleRepository.save(new People(1L, "didi", 30));
 		peopleRepository.save(new People(2L, "mama", 40));
 		peopleRepository.save(new People(3L, "kaka", 50));
 		Assert.assertEquals(3, peopleRepository.findAll().size());
 
-		// 删除一个User，再验证User总数
+		// 删除一个People，再验证People总数
 		People people = peopleRepository.findOne(1L);
 		peopleRepository.delete(people);
 		Assert.assertEquals(2, peopleRepository.findAll().size());
 
-		// 删除一个User，再验证User总数
+		// 删除一个People，再验证People总数
 		people = peopleRepository.findByUsername("mama");
 		peopleRepository.delete(people);
 		Assert.assertEquals(1, peopleRepository.findAll().size());
