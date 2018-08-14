@@ -16,12 +16,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.3.2.RELEASE</version>
+		<version>1.4.3.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
-		<dependency>
+		<dependency> 
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>1.2.40</version>
@@ -89,6 +89,27 @@
 		<dependency>
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-starter-cache</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter</artifactId>
+		    <exclusions>
+		        <exclusion> 
+		            <groupId>org.springframework.boot</groupId>
+		            <artifactId>spring-boot-starter-logging</artifactId>
+		        </exclusion>
+		    </exclusions>
+		</dependency>
+		<!-- 用于监控与管理 ..减少监控系统在采集应用指标时的开发量 -->
+		<dependency>
+		  <groupId>org.springframework.boot</groupId>
+		  <artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.statemachine</groupId>
+			<artifactId>spring-statemachine-core</artifactId>
+			<version>1.2.0.RELEASE</version>
 		</dependency>
 		<!-- <dependency>
 		    <groupId>net.sf.ehcache</groupId>
